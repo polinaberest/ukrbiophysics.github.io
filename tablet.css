@@ -1,0 +1,214 @@
+.header{
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;  
+	width: 100%;
+}
+.englisch_main_titile1{
+	margin-top: 1%;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1.2em;
+	color: black;
+	text-shadow: -1px 1px 1px white;
+
+}
+.englisch_main_titile2{ /**/
+	margin-top: 1%;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1em;
+	color: black;
+	text-shadow: -1px 1px 1px white;
+
+}
+.organisation_emblem{
+	border:solid 4px white;
+	background-color:#fc7b12;
+}
+.mobile_pictures{
+	display:none;
+}
+
+.header, .footer{
+	background-color: darkkhaki;
+}
+.middle{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-bottom:3px; 
+	margin-top:3px;
+}
+.nav{
+	width: 100%;
+}
+.main{
+	width:100%;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+}
+.welcome_text{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	margin-top: 20px;
+}
+.members_sign{
+	text-align: right;
+	font-style: none;
+}
+.first-card, .second-card, .third-card, .fourth-card{ 
+	border-left: 15px solid darkkhaki;
+	width:90%;
+	height:200px;
+	overflow:auto;
+	font-size: 1em;
+	padding-left: 2%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.footer{
+	color:white;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:12%;
+	padding-right:25%;
+	display: block;  
+	width: 100%;
+	margin-top:20px;
+}
+.footer-title{
+	align-self: center;
+}
+.footer-first-part{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+	justify-content: space-between;
+
+}
+.underline{
+	text-decoration: underline;
+}
+.welcome{
+	text-align: right;
+	margin-top: 2%;
+	margin-right: 7%;
+}
+ul{
+	list-style-type: none;
+	margin-left:5px ; 
+}
+a.option{
+	display:block;
+	width: 95%;
+	border:3px solid #fc7b12;
+	margin: 6px;
+	padding:7px;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:1.3em;
+	font-family: Verdana, Arial, sans-serif;
+	overflow: hidden;
+}
+a.option:hover{
+	background-color: #fc7b12;
+	color:white;
+	transition:1s;
+	text-shadow: -4px 2px 2px black;
+	width: 99%;
+}
+h1{
+	margin-top: 20px;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Verdana, Arial, sans-serif;
+	text-shadow: -4px 2px 2px black;
+}
+div.footer-title h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Verdana, Arial, sans-serif;
+	text-shadow: -4px 2px 2px black;
+	margin-bottom: 2%;
+}
+div.header img:hover{ 
+	width: 150px;
+	height: 150px;
+	transition:2s;
+}
+div.main_title p.link{
+	margin-top: 5%;
+}
+p.link a{
+	font-family: Verdana, Arial, sans-serif;
+	font-style:italic;
+	font-size: 0.8em;
+	text-decoration:underline;
+	color: white;
+	text-align: left;
+}
+
+li.third_first_level ul, li.fifth_first_level ul{
+	display: none;
+}
+li.third_first_level:hover .third_second_level{
+	display: block;
+}
+li.fifth_first_level:hover .fifth_second_level{
+	display: block;
+}
+
+a.first_magazin, a.second_magazin, a.about1, a.about3, a.about4, a.about5, a.about6, a.third_magazin, a.about2{
+	display:block;
+	width: 95%;
+	border:3px solid darkkhaki;
+	margin: 5px;
+	margin-left: 30px;
+	padding:10px;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:1em;
+	font-family: Verdana, Arial, sans-serif;
+}
+a.first_magazin:hover, a.second_magazin:hover, a.third_magazin:hover,
+a.about1:hover, a.about2:hover, a.about3:hover, a.about4:hover, a.about5:hover, a.about6:hover{
+	background-color: darkkhaki;
+	transition:0.5s;
+	text-shadow: -2px 2px 1px white;
+}
+div.contacts p{
+    color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:1.1em;
+	font-family: Verdana, Arial, sans-serif;
+	text-shadow: -2px 2px 1px white;
+}
+div.contacts span{
+	font-family: Verdana, Arial, sans-serif;
+	font-style:italic;
+	font-size: 1em;
+	color: white;
+	font-weight:bold;
+}
+h2{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}

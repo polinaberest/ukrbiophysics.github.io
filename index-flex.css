@@ -1,0 +1,15 @@
+div{
+	border:5px solid yellow;
+	margin:20px;
+	padding:20px;
+}
+.flex-container{
+	display: flex;
+}
+.inline-flex-container{
+	display: inline-flex;
+}
+.flex-item{
+	height:300px;
+	width: 100px;
+}

@@ -1,0 +1,220 @@
+.header{
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;   
+	width: 100%;
+}
+
+.englisch_main_titile1{
+	margin-top: 2%;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: black;
+	text-shadow: -2px 1px 2px white;
+	text-align: center;
+
+}
+.englisch_main_titile2{
+	margin-top: 1%;
+	font-family: Verdana, Arial, sans-serif;
+	color: black;
+	text-align: center;
+
+}
+.state_emblem{
+	display: none;
+}
+.organisation_emblem{
+	display: none;
+}
+.mobile_pictures{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.middle{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-bottom:3px; 
+	margin-top:3px;
+}
+
+.header, .footer{
+	display:block;
+	background-color:darkkhaki;
+}
+.nav{
+	width: 100%;
+}
+.main{
+	width: 100%;
+	display: flex;
+	flex-direction:column; 
+	justify-content: center;
+}
+
+.first-card, .second-card, .third-card, .fourth-card{
+	border-left: 10px solid darkkhaki;
+	width:90%;
+	height:150px;
+	overflow: auto;
+	padding-left:2%;
+	margin-top: 10px;
+	margin-left:15px;
+}
+.footer{
+	color:white;
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;  
+	width: 100%;
+	margin-top:10px;
+}
+.footer-title{
+	text-align:center;
+}
+.footer-first-part{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+
+}
+.underline{
+	text-decoration: underline;
+}
+.welcome_text{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	margin-top: 25px;
+}
+.welcome{
+	text-align: right;
+	margin-top: 2%;
+	margin-right: 7%;
+}
+.copyright{
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.5;
+	font-weight: bold;
+}
+ul{
+	list-style-type: none;
+	margin-left:5px ; 
+}
+a.option{
+	display:block;
+	width: 85%;
+	border:2px solid #fc7b12;
+	margin-bottom: 5px;
+	margin-left:10px;
+	padding:7px;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:1.1em;
+	font-family: Verdana, Arial, sans-serif;
+}
+a.option:hover{
+	background-color: #fc7b12;
+	color:white;
+	transition:1s;
+	text-shadow: -4px 2px 2px black;
+	width: 90%;
+}
+h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Verdana, Arial, sans-serif;
+	text-shadow: -3px 2px 2px black;
+	text-align: center;
+	padding-top: 10px;
+}
+h2{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+div.footer-title h3{
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Verdana, Arial, sans-serif;
+	
+}
+
+div.main_title p.link{
+	margin-top: 8px;
+}
+p.link a{
+	font-family: Verdana, Arial, sans-serif;
+	font-style:italic;
+	font-size: 0.9em;
+	text-decoration:underline;
+	color: white;
+}
+li.third_first_level ul, li.fifth_first_level ul{
+	display: none;
+}
+li.third_first_level:hover .third_second_level{
+	display: block;
+}
+li.fifth_first_level:hover .fifth_second_level{
+	display: block;
+}
+
+a.first_magazin, a.second_magazin, a.about1, a.about3, a.about4, a.about5, a.about6, a.third_magazin, a.about2{
+	display:block;
+	width: 90%;
+	border:2px solid darkkhaki;
+	margin: 5px;
+	margin-left: 25px;
+	padding:10px;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:1em;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+a.first_magazin:hover, a.second_magazin:hover, a.third_magazin:hover,
+a.about1:hover, a.about2:hover, a.about3:hover, a.about4:hover, a.about5:hover, a.about6:hover{
+	background-color: darkkhaki;
+	transition:0.5s;
+	text-shadow: -2px 2px 2px white;
+}
+div.contacts p{
+    color:black;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 20px;
+	font-size:0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	text-shadow: -2px 2px 1px white;
+	text-align: center;
+}
+div.contacts span{
+	font-family: Verdana, Arial, sans-serif;
+	font-style:italic;
+	font-size: 0.8em;
+	color: white;
+	font-weight:bold;
+}
+div.contacts{
+	margin-left: 10%;
+}
